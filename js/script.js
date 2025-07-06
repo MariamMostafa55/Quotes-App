@@ -1,0 +1,45 @@
+function quote() {
+    var quotes = [
+"The only way to do great work is to love what you do.",
+  "Focus on making yourself better, not on thinking that you are better.",
+  "Your heart is the size of an ocean. Go find yourself in its hidden depths.",
+  "Many times in life, we are held back from achieving our goals because we do not commit ourselves wholeheartedly. With an escape route in mind, we hold ourselves back from giving our all.",
+  "Sometimes the only way to ever find yourself is to get completely lost.",
+  "Open your mind before your mouth.",
+  "Success doesn't come from what you do occasionally, it comes from what you do consistently.",
+  "Don’t watch the clock; do what it does. Keep going.",
+  "Believe you can and you're halfway there.",
+  "Push yourself, because no one else is going to do it for you.",
+  "It always seems impossible until it's done.",
+  "The only limit to our realization of tomorrow is our doubts of today.",
+  "Dream big. Start small. Act now.",
+  "Don’t stop when you’re tired. Stop when you’re done.",
+  "Your only competition is who you were yesterday.",
+  "Great things never come from comfort zones.",
+  "Doubt kills more dreams than failure ever will.",
+  "Small steps every day lead to big results.",
+  "Discipline is choosing between what you want now and what you want most.",
+  "Work hard in silence, let success be your noise.",
+  "You don’t have to be great to start, but you have to start to be great.",
+  "The harder you work for something, the greater you’ll feel when you achieve it.",
+  "Every accomplishment starts with the decision to try.",
+  "Success is what comes after you stop making excuses.",
+  "You are capable of more than you know. Push your limits.",
+  "Difficult roads often lead to beautiful destinations.",
+  "Start where you are. Use what you have. Do what you can.",
+  "Stay away from negative people. They have a problem for every solution.",
+  "Winners are not people who never fail but people who never quit.",
+  "Failure is not the opposite of success. It’s part of success.",
+  "Act as if what you do makes a difference. It does.",
+  "A little progress each day adds up to big results.",
+  "Don't limit your challenges. Challenge your limits.",
+  "Keep going. Everything you need will come to you at the perfect time.",
+  "Stay focused. Stay positive. Stay strong.",
+  "Success is the sum of small efforts, repeated day in and day out.",
+  "Make today so awesome that yesterday gets jealous.",
+  "When you feel like quitting, remember why you started."
+];
+
+    var randomIndex = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quote").innerText = quotes[randomIndex];
+}
